@@ -36,4 +36,4 @@ scikit-learn
 jupyter
 urllib3==1.26.6
 
-sparticles @ git+https://github.com/jd550179/sparticles.git
+sparticles @ git+https://github.com/jd550179/sparticles.git@jdegens_fcc
