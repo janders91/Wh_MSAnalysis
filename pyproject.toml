@@ -1,0 +1,28 @@
+[project]
+name = "FCCHBBTAUTAU"
+version = "0.1"
+authors = [
+  {name="Jordy Degens", email="jdegens@hep.ph.liv.ac.uk"}
+]
+description = "MPHYS project on HH->bbtautau MVA for FCC-hh"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+"Homepage" = "https://github.com/jd550179/FCCHBBTAUTAU.git"
+"Bug Tracker" = "https://github.com/jd550179/FCCHBBTAUTAU/issues"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[build-system]
+requires = ["setuptools>=62"]
+build-backend = "setuptools.build_meta"
+
+

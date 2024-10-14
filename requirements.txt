@@ -17,7 +17,7 @@ nvidia-cusparse-cu12==12.1.0.106
 nvidia-nccl-cu12==2.19.3
 nvidia-nvjitlink-cu12==12.6.77
 nvidia-nvtx-cu12==12.1.105
-pyg-lib==0.4.0+pt22cu121 -f https://data.pyg.org/whl/torch-2.2.0+cu121.html
+#pyg-lib==0.4.0+pt22cu121 -f https://data.pyg.org/whl/torch-2.2.0+cu121.html
 scipy==1.14.1
 sympy==1.13.3
 torch==2.2.1
