@@ -61,7 +61,7 @@ ssh -p2222 -L8888:localhost:8888 <username>@localhost cat -
 # Enter localhost:8888 into your browser of choice to access jupyter
 # and paste in the token displayed in the terminal on alpha
 
-# Start by looking at examples/Playground.ipynb
+# Start by looking at examples/EventsDataset_Saving.ipynb
 ```
 
 
