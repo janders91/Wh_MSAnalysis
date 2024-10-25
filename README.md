@@ -1,6 +1,6 @@
 # FCCHBBTAUTAU
 
-MPHYS project on HH->bbtautau MVA for FCC-hh
+MPHYS project on NN for ATLAS Wh analysis 
 
 # Instructions
 
