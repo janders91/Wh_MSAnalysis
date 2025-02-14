@@ -47,19 +47,22 @@ conda activate WH_Ana
 
 ```bash
 
-# On alpha, run jupyter lab with no browser
+# On alpha, run jupyter lab with no browser (in the terminal after performing the above setup)
 # (you may need to use another port 88XX if 8888 is taken)
 jupyter lab --no-browser --port 8888
 
 # On your laptop create an ssh tunnel to alpha 
 # ... from on-site if you are connected via ethernet you can simply do
 ssh -L 8888:localhost:8888 <userame>@alpha.ph.liv.ac.uk cat -
-# ... while from the wifi/offsite it needs two commands
+# ... while from the wifi/offsite it needs two commands, in two different terminal windows
+# ... the - keeps the connection open (you're essentially redirecting traffic from your browser via the alpha system)
 ssh -L2222:alpha:22 <username>@gateway.ph.liv.ac.uk cat -
 ssh -p2222 -L8888:localhost:8888 <username>@localhost cat -
 
+
 # Enter localhost:8888 into your browser of choice to access jupyter
 # and paste in the token displayed in the terminal on alpha
+# Alternatively you can copy and paste the full path (including token) that is shown after running the jupyter lab command.
 
 # Start by looking at examples/EventsDataset_Saving.ipynb
 ```
